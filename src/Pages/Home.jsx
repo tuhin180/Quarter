@@ -1,11 +1,13 @@
 import React from "react";
-import Container from "../Component/Container";
+
 import Header from "../Component/Header";
+import MenuItems from "../Component/MenuItems";
 
 const Home = () => {
   return (
     <>
       <Header />
+      <MenuItems />
     </>
   );
 };
