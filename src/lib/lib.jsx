@@ -1,8 +1,13 @@
 import {
   emailIcon,
   fbIcon,
+  heartIcon,
+  homeIcon,
   locationIcon,
+  playIcon,
+  SearchIcon,
   twitterIcon,
+  UserIcon,
   ViteIcon,
 } from "./iconProvider";
 
@@ -62,7 +67,7 @@ export const socialData = [
 ];
 
 // menues item
-export const menus = [
+export const menu = [
   {
     id: 1,
     items: "Home",
@@ -95,15 +100,88 @@ export const menus = [
   },
 ];
 
-// menue icons
-export const menuesIcont = [
+// menu icons
+export const menuIcon = [
   {
     id: 1,
-    fillColor: "#ffffff",
+    fillColor: "#000000",
     iconWidth: 20,
     iconHeight: 20,
+    link: "/",
     icons: function () {
-      return;
+      return UserIcon(this.fillColor, this.iconHeight, this.iconWidth);
+    },
+  },
+  {
+    id: 1,
+    fillColor: "#000000",
+    iconWidth: 20,
+    iconHeight: 20,
+    link: "/",
+    icons: function () {
+      return heartIcon(this.fillColor, this.iconHeight, this.iconWidth);
+    },
+  },
+  {
+    id: 1,
+    fillColor: "#000000",
+    iconWidth: 20,
+    iconHeight: 20,
+    link: "/",
+    icons: function () {
+      return SearchIcon(this.fillColor, this.iconHeight, this.iconWidth);
+    },
+  },
+];
+
+// banner slider
+export const slides = [
+  {
+    id: 1,
+    img: "../../public/banner.png",
+    subHeading: "Real Estate Agency",
+    heading: "Find Your Dream House By Us",
+    paragraph: "Lorem ipsum dolor sit amet, consectetur adipisicing",
+    fillColor: "#ffffff",
+    iconWidth: 30,
+    iconHeight: 30,
+    icons: function () {
+      return homeIcon(this.fillColor, this.iconHeight, this.iconWidth);
+    },
+    playIcons: function () {
+      return playIcon(this.fillColor, this.iconWidth, this.iconHeight);
+    },
+  },
+  {
+    id: 2,
+    img: "../../public/banner.png",
+    subHeading: "Real Estate Agency",
+    heading: "Find Your Dream House By Us",
+    paragraph: "Lorem ipsum dolor sit amet, consectetur adipisicing",
+    fillColor: "#ffffff",
+    iconWidth: 30,
+    iconHeight: 30,
+    icons: function () {
+      return homeIcon(this.fillColor, this.iconHeight, this.iconWidth);
+    },
+    playIcons: function () {
+      return playIcon(this.fillColor, this.iconWidth, this.iconHeight);
+    },
+  },
+  {
+    id: 3,
+    img: "../../public/banner.png",
+    subHeading: "Real Estate Agency",
+    heading: "Find Your Dream House By Us",
+    paragraph: "Lorem ipsum dolor sit amet, consectetur adipisicing",
+    fillColor: "#ffffff",
+    iconWidth: 30,
+    iconHeight: 30,
+    icons: function () {
+      return homeIcon(this.fillColor, this.iconHeight, this.iconWidth);
+    },
+    playIcons: function () {
+      return playIcon(this.fillColor, this.iconWidth, this.iconHeight);
     },
   },
 ];

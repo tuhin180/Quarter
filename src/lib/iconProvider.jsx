@@ -198,3 +198,111 @@ export const SearchIcon = (color = "#ffffff", height = 10, width = 10) => {
     </svg>
   );
 };
+
+export const homeIcon = (color = "#ffffff", height = 10, width = 10) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="-0.5 -0.5 24 24"
+      fill="#880808"
+      stroke={color}
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      id="Home-Search--Streamline-Tabler"
+      height={height}
+      width={width}
+    >
+      <path
+        d="m20.125 11.5 -8.625 -8.625 -8.625 8.625h1.9166666666666667v6.708333333333334a1.9166666666666667 1.9166666666666667 0 0 0 1.9166666666666667 1.9166666666666667h4.504166666666667"
+        stroke-width="1"
+      ></path>
+      <path
+        d="M8.625 20.125v-5.75a1.9166666666666667 1.9166666666666667 0 0 1 1.9166666666666667 -1.9166666666666667h1.9166666666666667"
+        stroke-width="1"
+      ></path>
+      <path
+        d="M14.375 17.25a2.875 2.875 0 1 0 5.75 0 2.875 2.875 0 1 0 -5.75 0"
+        stroke-width="1"
+      ></path>
+      <path
+        d="M19.358333333333334 19.358333333333334 21.083333333333336 21.083333333333336"
+        stroke-width="1"
+      ></path>
+    </svg>
+  );
+};
+
+export const playIcon = (color = "#000000", height = 10, width = 10) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="-0.5 -0.5 24 24"
+      fill="#880808"
+      stroke={color}
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      id="Play--Streamline-Lucide"
+      height={height}
+      width={width}
+    >
+      <path
+        d="m5.75 2.875 13.416666666666668 8.625 -13.416666666666668 8.625L5.75 2.875z"
+        stroke-width="1"
+      ></path>
+    </svg>
+  );
+};
+export const rightArrowIcon = (color = "#FF5A3C", height = 10, width = 10) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 32 32"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      id="LongArrowRight"
+      height={height}
+      width={width}
+    >
+      <path d="M2 16h26" strokeWidth="2"></path>
+      <path d="m20 8 8 8 -8 8" strokeWidth="2"></path>
+    </svg>
+  );
+};
+
+export const leftArrowIcon = (color = "#FF5A3C", height = 10, width = 10) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 32 32"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      id="LongArrowLeft"
+      height={height}
+      width={width}
+    >
+      <path d="M30 16H4" strokeWidth="2"></path>
+      <path d="m12 8 -8 8 8 8" strokeWidth="2"></path>
+    </svg>
+  );
+};
+export const downArrowIcon = (color = "#000000", height = 10, width = 10) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      id="ChevronDown--Streamline-Lucide"
+      height={height}
+      width={width}
+    >
+      <path d="m6 9 6 6 6-6" strokeWidth="2"></path>
+    </svg>
+  );
+};
