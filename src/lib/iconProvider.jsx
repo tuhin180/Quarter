@@ -306,3 +306,28 @@ export const downArrowIcon = (color = "#000000", height = 10, width = 10) => {
     </svg>
   );
 };
+export const filterIcon = (color = "#000000", height = 10, width = 10) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      id="SlidersHorizontal--Streamline-Lucide"
+      height={height}
+      width={width}
+    >
+      <line x1="21" y1="4" x2="14" y2="4" strokeWidth="2"></line>
+      <line x1="10" y1="4" x2="3" y2="4" strokeWidth="2"></line>
+      <line x1="21" y1="12" x2="12" y2="12" strokeWidth="2"></line>
+      <line x1="8" y1="12" x2="3" y2="12" strokeWidth="2"></line>
+      <line x1="21" y1="20" x2="16" y2="20" strokeWidth="2"></line>
+      <line x1="12" y1="20" x2="3" y2="20" strokeWidth="2"></line>
+      <circle cx="12" cy="4" r="2" strokeWidth="2"></circle>
+      <circle cx="10" cy="12" r="2" strokeWidth="2"></circle>
+      <circle cx="14" cy="20" r="2" strokeWidth="2"></circle>
+    </svg>
+  );
+};

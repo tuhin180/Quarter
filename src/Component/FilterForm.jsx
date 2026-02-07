@@ -1,14 +1,14 @@
 import React from "react";
 import Container from "./SharedComponent/Container";
 import Button from "./SharedComponent/Button";
-import { downArrowIcon } from "../lib/iconProvider";
+import { downArrowIcon, filterIcon } from "../lib/iconProvider";
 
 const FilterForm = () => {
   return (
-    <>
+    <div className=" relative -top-20">
       <Container>
-        <div className="py-7 grid grid-cols-4 gap-3 content-center">
-          <div className="w-full relative">
+        <div className="p-7 flex items-center gap-6 justify-between bg-white shadow-lg rounded-md">
+          <div className="flex-1 relative">
             <select
               name=""
               id=""
@@ -24,26 +24,43 @@ const FilterForm = () => {
               {downArrowIcon("#FF5A3C", 20, 20)}
             </div>
           </div>
-          <div className="w-full">
-            <select name="" id="">
+          <div className="flex-1 relative">
+            <select
+              name=""
+              id=""
+              className="relative inline-block appearance-none w-full focus:border-[#FF5A3C] focus:outline-0 border border-[#FF5A3C] p-4 cursor-pointer"
+            >
               <option value="hi">there</option>
               <option value="">Select Location</option>
               <option value="me">New York</option>
               <option value="la">Los Angeles</option>
               <option value="chicago">Chicago</option>
             </select>
+            <div className="absolute inset-y-5 right-0  px-3 pointer-events-none ">
+              {downArrowIcon("#FF5A3C", 20, 20)}
+            </div>
           </div>
-          <div className="w-full">
-            <select name="" id="">
+          <div className="flex-1 relative">
+            <select
+              name=""
+              id=""
+              className="relative inline-block appearance-none w-full focus:border-[#FF5A3C] focus:outline-0 border border-[#FF5A3C] p-4 cursor-pointer"
+            >
               <option value="there">there</option>
             </select>
+            <div className="absolute inset-y-5 right-0  px-3 pointer-events-none ">
+              {downArrowIcon("#FF5A3C", 20, 20)}
+            </div>
           </div>
-          <div className="w-full">
+          <div className="flex items-center gap-5">
+            <div>
+              <span>{filterIcon("#FF5A3C", 20, 20)}</span>
+            </div>
             <Button>FIND NOW</Button>
           </div>
         </div>
       </Container>
-    </>
+    </div>
   );
 };
 
