@@ -113,7 +113,7 @@ export const menuIcon = [
     },
   },
   {
-    id: 1,
+    id: 2,
     fillColor: "#000000",
     iconWidth: 20,
     iconHeight: 20,
@@ -123,7 +123,7 @@ export const menuIcon = [
     },
   },
   {
-    id: 1,
+    id: 3,
     fillColor: "#000000",
     iconWidth: 20,
     iconHeight: 20,
