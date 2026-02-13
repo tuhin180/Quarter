@@ -185,3 +185,94 @@ export const slides = [
     },
   },
 ];
+
+// property type
+export const propertyType = [
+  {
+    id: 1,
+    name: "Apartment",
+    value: "apartment",
+  },
+  {
+    id: 2,
+    name: "House",
+    value: "house",
+  },
+  {
+    id: 3,
+    name: "Villa",
+    value: "villa",
+  },
+  {
+    id: 4,
+    name: "Duplex",
+    value: "duplex",
+  },
+  {
+    id: 5,
+    name: "Penthouse",
+    value: "penthouse",
+  },
+  {
+    id: 6,
+    name: "Studio",
+    value: "studio",
+  },
+  {
+    id: 7,
+    name: "Townhouse",
+    value: "townhouse",
+  },
+  {
+    id: 8,
+    name: "Land/Plot",
+    value: "land",
+  },
+  {
+    id: 9,
+    name: "Commercial",
+    value: "commercial",
+  },
+  {
+    id: 10,
+    name: "Office Space",
+    value: "office",
+  },
+];
+export const propertyStatus = [
+  {
+    id: 1,
+    name: "For Sale",
+    value: "for-sale",
+  },
+  {
+    id: 2,
+    name: "For Rent",
+    value: "for-rent",
+  },
+  {
+    id: 3,
+    name: "Sold",
+    value: "sold",
+  },
+  {
+    id: 4,
+    name: "Rented",
+    value: "rented",
+  },
+  {
+    id: 5,
+    name: "Under Contract",
+    value: "under-contract",
+  },
+  {
+    id: 6,
+    name: "Coming Soon",
+    value: "coming-soon",
+  },
+  {
+    id: 7,
+    name: "Off Market",
+    value: "off-market",
+  },
+];

@@ -3,6 +3,7 @@ import Container from "./SharedComponent/Container";
 import Button from "./SharedComponent/Button";
 import { downArrowIcon, filterIcon } from "../lib/iconProvider";
 import { useFetch } from "../Hooks/customhooks";
+import { propertyStatus, propertyType } from "../lib/lib";
 
 const FilterForm = () => {
   const { data, loading, error } = useFetch(
@@ -19,7 +20,7 @@ const FilterForm = () => {
               id=""
               className="relative inline-block appearance-none w-full focus:border-[#FF5A3C] focus:outline-0 border border-[#FF5A3C] p-4 cursor-pointer"
             >
-              <option value="choose Area">Choose Area</option>
+              <option value="">Choose Area</option>
               {data.map((district) => {
                 return (
                   <option key={district.id} value={district.name}>
@@ -38,11 +39,14 @@ const FilterForm = () => {
               id=""
               className="relative inline-block appearance-none w-full focus:border-[#FF5A3C] focus:outline-0 border border-[#FF5A3C] p-4 cursor-pointer"
             >
-              <option value="hi">there</option>
-              <option value="">Select Location</option>
-              <option value="me">New York</option>
-              <option value="la">Los Angeles</option>
-              <option value="chicago">Chicago</option>
+              <option value="">Property Status</option>
+              {propertyStatus.map((status) => {
+                return (
+                  <option key={status.id} value={status.name}>
+                    {status.name}
+                  </option>
+                );
+              })}
             </select>
             <div className="absolute inset-y-5 right-0  px-3 pointer-events-none ">
               {downArrowIcon("#FF5A3C", 20, 20)}
@@ -54,7 +58,12 @@ const FilterForm = () => {
               id=""
               className="relative inline-block appearance-none w-full focus:border-[#FF5A3C] focus:outline-0 border border-[#FF5A3C] p-4 cursor-pointer"
             >
-              <option value="there">there</option>
+              <option value="">Property Type</option>
+              {propertyType.map((type) => (
+                <option value={type.name} key={type.id}>
+                  {type.name}
+                </option>
+              ))}
             </select>
             <div className="absolute inset-y-5 right-0  px-3 pointer-events-none ">
               {downArrowIcon("#FF5A3C", 20, 20)}
