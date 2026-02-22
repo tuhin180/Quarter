@@ -1,11 +1,15 @@
 import {
+  beautifulSceneIcon,
   emailIcon,
+  exceptionalLifestyleIcon,
   fbIcon,
   heartIcon,
   homeIcon,
   locationIcon,
   playIcon,
   SearchIcon,
+  securityIcon,
+  smartHomeIcon,
   twitterIcon,
   UserIcon,
   ViteIcon,
@@ -276,3 +280,61 @@ export const propertyStatus = [
     value: "off-market",
   },
 ];
+
+export const AboutData = {
+  id: 1,
+  title: "About",
+  heading: "The Leading Real Estate Rental Marketplace",
+  img: "../../public/about_cover.png",
+  video: "../../public/realstateVideo.MOV",
+  thumbnail: "../../public/thumbnail.png",
+  paragraph:
+    "Over 39,000 people work for us in more than 70 countries all over the This breadth of global coverage, combined with specialist services",
+
+  category: [
+    {
+      id: 1,
+      title: "Smart Home Design",
+      fillColor: "#ffffff",
+      iconWidth: 30,
+      iconHeight: 30,
+      icon: function () {
+        return smartHomeIcon(this.fillColor, this.iconHeight, this.iconWidth);
+      },
+    },
+    {
+      id: 2,
+      title: "Beautiful Scene Around",
+      fillColor: "#ffffff",
+      iconWidth: 30,
+      iconHeight: 30,
+      icon: function () {
+        return beautifulSceneIcon(
+          this.fillColor,
+          this.iconHeight,
+          this.iconWidth,
+        );
+      },
+    },
+    {
+      id: 3,
+      title: "Exceptional Lifestyle",
+      icon: function () {
+        return exceptionalLifestyleIcon(
+          this.fillColor,
+          this.iconHeight,
+          this.iconWidth,
+        );
+      },
+    },
+    {
+      id: 4,
+      title: "Complete 24/7 Security",
+      icon: function () {
+        return securityIcon(this.fillColor, this.iconHeight, this.iconWidth);
+      },
+    },
+  ],
+  details:
+    "Enimad minim veniam quis nostrud exercitation llamco laboris. Lorem ipsum dolor sit amet",
+};

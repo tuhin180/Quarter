@@ -4,6 +4,7 @@ import Header from "../Component/Header";
 import MenuItems from "../Component/MenuItems";
 import Banner from "../Component/Banner";
 import FilterForm from "../Component/FilterForm";
+import About from "../Component/About";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <MenuItems />
       <Banner />
       <FilterForm />
+      <About />
     </>
   );
 };

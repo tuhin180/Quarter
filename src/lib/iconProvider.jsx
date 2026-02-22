@@ -231,7 +231,7 @@ export const homeIcon = (color = "#ffffff", height = 10, width = 10) => {
     </svg>
   );
 };
-
+// play icon
 export const playIcon = (color = "#000000", height = 10, width = 10) => {
   return (
     <svg
@@ -328,6 +328,159 @@ export const filterIcon = (color = "#000000", height = 10, width = 10) => {
       <circle cx="12" cy="4" r="2" strokeWidth="2"></circle>
       <circle cx="10" cy="12" r="2" strokeWidth="2"></circle>
       <circle cx="14" cy="20" r="2" strokeWidth="2"></circle>
+    </svg>
+  );
+};
+// about icon
+export const smartHomeIcon = (color = "#e8572a", height = 64, width = 64) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 64 64"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      height={height}
+      width={width}
+    >
+      {/* Background Circle */}
+      <circle cx="32" cy="32" r="32" fill="#f0ede9" stroke="none" />
+      {/* House */}
+      <path d="M18,40 L18,30 L32,18 L46,30 L46,40 Z" strokeWidth="2" />
+      {/* Door */}
+      <rect x="28" y="34" width="8" height="6" rx="1" strokeWidth="1.5" />
+      {/* WiFi Arc */}
+      <path d="M26,28 Q32,22 38,28" strokeWidth="1.5" />
+      {/* WiFi Dot */}
+      <circle cx="32" cy="27" r="1.5" fill={color} stroke="none" />
+    </svg>
+  );
+};
+
+export const beautifulSceneIcon = (
+  color = "#e8572a",
+  height = 64,
+  width = 64,
+) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 64 64"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      height={height}
+      width={width}
+    >
+      {/* Background Circle */}
+      <circle cx="32" cy="32" r="32" fill="#f0ede9" stroke="none" />
+      {/* Mountains */}
+      <path
+        d="M12,46 L24,24 L36,38 L42,28 L54,46 Z"
+        strokeWidth="2"
+        strokeLinejoin="round"
+      />
+      {/* Sun */}
+      <circle cx="20" cy="28" r="5" strokeWidth="1.5" />
+      {/* Snow Cap */}
+      <path d="M21,28 L24,24 L27,28" fill={color} stroke="none" />
+    </svg>
+  );
+};
+
+export const exceptionalLifestyleIcon = (
+  color = "#ffffff",
+  height = 64,
+  width = 64,
+) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 64 64"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      height={height}
+      width={width}
+    >
+      {/* Background Circle */}
+      <circle cx="32" cy="32" r="32" fill="#e8572a" stroke="none" />
+      {/* Bar */}
+      <line x1="18" y1="32" x2="46" y2="32" strokeWidth="2.5" />
+      {/* Left Inner Plate */}
+      <rect
+        x="14"
+        y="25"
+        width="5"
+        height="14"
+        rx="1.5"
+        fill={color}
+        stroke="none"
+      />
+      {/* Left Outer Plate */}
+      <rect
+        x="9"
+        y="27"
+        width="5"
+        height="10"
+        rx="1.5"
+        fill={color}
+        stroke="none"
+      />
+      {/* Right Inner Plate */}
+      <rect
+        x="45"
+        y="25"
+        width="5"
+        height="14"
+        rx="1.5"
+        fill={color}
+        stroke="none"
+      />
+      {/* Right Outer Plate */}
+      <rect
+        x="50"
+        y="27"
+        width="5"
+        height="10"
+        rx="1.5"
+        fill={color}
+        stroke="none"
+      />
+    </svg>
+  );
+};
+
+export const securityIcon = (color = "#e8572a", height = 64, width = 64) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 64 64"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      height={height}
+      width={width}
+    >
+      {/* Background Circle */}
+      <circle cx="32" cy="32" r="32" fill="#f0ede9" stroke="none" />
+      {/* Shield */}
+      <path
+        d="M32,16 L48,23 L48,34 Q48,46 32,50 Q16,46 16,34 L16,23 Z"
+        strokeWidth="2"
+        strokeLinejoin="round"
+      />
+      {/* Checkmark */}
+      <polyline
+        points="24,33 29,38 40,26"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
     </svg>
   );
 };
