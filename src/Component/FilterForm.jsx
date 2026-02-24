@@ -73,7 +73,7 @@ const FilterForm = () => {
             <div>
               <span>{filterIcon("#FF5A3C", 20, 20)}</span>
             </div>
-            <Button>FIND NOW</Button>
+            <Button text={"FIND NOW"} />
           </div>
         </div>
       </Container>

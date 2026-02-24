@@ -280,7 +280,7 @@ export const propertyStatus = [
     value: "off-market",
   },
 ];
-
+//  about us data
 export const AboutData = {
   id: 1,
   title: "About us",
@@ -344,3 +344,30 @@ export const AboutData = {
   details:
     "Enimad minim veniam quis nostrud exercitation \n llamco laboris. Lorem ipsum dolor sit amet",
 };
+// sells status
+export const sellsStatus = [
+  {
+    id: 1,
+    number: 560,
+    Tittle: "Total Area Sq",
+    icon: "../../public/Totalsell/Group 7234.png",
+  },
+  {
+    id: 2,
+    number: 197,
+    Tittle: "Apartments Sold",
+    icon: "../../public/Totalsell/Group 7239.png",
+  },
+  {
+    id: 3,
+    number: 268,
+    Tittle: "Total Constructions",
+    icon: "../../public/Totalsell/Group 7251.png",
+  },
+  {
+    id: 3,
+    number: 340,
+    Tittle: "Apartio Rooms",
+    icon: "../../public/Totalsell/Group 7253.png",
+  },
+];

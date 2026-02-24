@@ -5,6 +5,7 @@ import MenuItems from "../Component/MenuItems";
 import Banner from "../Component/Banner";
 import FilterForm from "../Component/FilterForm";
 import About from "../Component/About/About";
+import SellStatus from "../Component/SellStatus/SellStatus";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Banner />
       <FilterForm />
       <About />
+      <SellStatus />
     </>
   );
 };

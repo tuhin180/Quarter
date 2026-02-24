@@ -33,7 +33,7 @@ const Header = () => {
                 </div>
               );
             })}
-            <Button>Add Listings</Button>
+            <Button text={"Add Listings"} />
           </div>
         </div>
       </Container>

@@ -14,7 +14,7 @@ const BannerContent = ({ items }) => {
         </h1>
         <p className="leading-normal">{items.paragraph}</p>
         <div className="py-5 flex items-center gap-10">
-          <Button>View Properties</Button>
+          <Button text={"View Properties"} />
           {items.playIcons && (
             <span className="p-5 rounded-full bg-white shadow-xl">
               {" "}
