@@ -391,7 +391,7 @@ export const beautifulSceneIcon = (
 };
 
 export const exceptionalLifestyleIcon = (
-  color = "#ffffff",
+  color = "#e8572a",
   height = 64,
   width = 64,
 ) => {
@@ -406,8 +406,7 @@ export const exceptionalLifestyleIcon = (
       height={height}
       width={width}
     >
-      {/* Background Circle */}
-      <circle cx="32" cy="32" r="32" fill="#e8572a" stroke="none" />
+      <circle cx="32" cy="32" r="32" fill="#f0ede9" stroke="none" />
       {/* Bar */}
       <line x1="18" y1="32" x2="46" y2="32" strokeWidth="2.5" />
       {/* Left Inner Plate */}

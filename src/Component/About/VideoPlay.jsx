@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import { playIcon } from "../lib/iconProvider";
+import { playIcon } from "../../lib/iconProvider";
 
 const VideoPlay = ({ src, thumbnail, WhiteColor = "#ffffff" }) => {
-  console.log(thumbnail);
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
   return (
@@ -11,11 +10,7 @@ const VideoPlay = ({ src, thumbnail, WhiteColor = "#ffffff" }) => {
         className="relative group overflow-hidden cursor-pointer"
         onClick={toggle}
       >
-        <img
-          src="../../public/thumbnail.png"
-          alt=""
-          className="w-full h-auto rounded"
-        />
+        <img src={thumbnail} alt="" className="w-full h-auto rounded" />
         <div className="absolute inset-0  bg-black/30 group-hover:bg-black/50 rounded-lg transition-all">
           <div className="absolute inset-0 flex items-center justify-center animate-ping">
             <div

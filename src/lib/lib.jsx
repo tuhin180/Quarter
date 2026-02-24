@@ -283,7 +283,7 @@ export const propertyStatus = [
 
 export const AboutData = {
   id: 1,
-  title: "About",
+  title: "About us",
   heading: "The Leading Real Estate Rental Marketplace",
   img: "../../public/about_cover.png",
   video: "../../public/realstateVideo.MOV",
@@ -295,7 +295,7 @@ export const AboutData = {
     {
       id: 1,
       title: "Smart Home Design",
-      fillColor: "#ffffff",
+      fillColor: "#e8572a",
       iconWidth: 30,
       iconHeight: 30,
       icon: function () {
@@ -305,7 +305,7 @@ export const AboutData = {
     {
       id: 2,
       title: "Beautiful Scene Around",
-      fillColor: "#ffffff",
+      fillColor: "#e8572a",
       iconWidth: 30,
       iconHeight: 30,
       icon: function () {
@@ -319,6 +319,9 @@ export const AboutData = {
     {
       id: 3,
       title: "Exceptional Lifestyle",
+      fillColor: "#e8572a",
+      iconWidth: 30,
+      iconHeight: 30,
       icon: function () {
         return exceptionalLifestyleIcon(
           this.fillColor,
@@ -330,11 +333,14 @@ export const AboutData = {
     {
       id: 4,
       title: "Complete 24/7 Security",
+      fillColor: "#e8572a",
+      iconWidth: 30,
+      iconHeight: 30,
       icon: function () {
         return securityIcon(this.fillColor, this.iconHeight, this.iconWidth);
       },
     },
   ],
   details:
-    "Enimad minim veniam quis nostrud exercitation llamco laboris. Lorem ipsum dolor sit amet",
+    "Enimad minim veniam quis nostrud exercitation \n llamco laboris. Lorem ipsum dolor sit amet",
 };

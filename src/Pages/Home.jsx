@@ -4,7 +4,7 @@ import Header from "../Component/Header";
 import MenuItems from "../Component/MenuItems";
 import Banner from "../Component/Banner";
 import FilterForm from "../Component/FilterForm";
-import About from "../Component/About";
+import About from "../Component/About/About";
 
 const Home = () => {
   return (
