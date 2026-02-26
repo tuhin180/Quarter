@@ -6,6 +6,7 @@ import Banner from "../Component/Banner";
 import FilterForm from "../Component/FilterForm";
 import About from "../Component/About/About";
 import SellStatus from "../Component/SellStatus/SellStatus";
+import ApartmentDetails from "../Component/ApartmentDetails/ApartmentDetails";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <FilterForm />
       <About />
       <SellStatus />
+      <ApartmentDetails />
     </>
   );
 };

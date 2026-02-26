@@ -371,3 +371,79 @@ export const sellsStatus = [
     icon: "../../public/Totalsell/Group 7253.png",
   },
 ];
+export const ApartmentData = {
+  title: "Apartment Sketch",
+  heading: "Apartments Plan",
+  plans: [
+    {
+      id: 1,
+      name: "The Studio",
+      description:
+        "Enimad minim veniam quis nostrud exercitation ullamco laboris. Lorem ipsum dolor sit amet cons aetetur adipisicing elit sedo eiusmod tempor. Incididunt labore et dolore magna aliqua. sed ayd minim veniam.",
+      image: "../../public/studio_plan.png",
+      details: [
+        { label: "Total Area", value: "1200 Sq. Ft" },
+        { label: "Bedroom", value: "80 Sq. Ft" },
+        { label: "Bathroom", value: "30 Sq. Ft" },
+        { label: "Smoking/Pets", value: "Not Allowed" },
+        { label: "Lounge", value: "400 Sq. Ft" },
+      ],
+    },
+    {
+      id: 2,
+      name: "Deluxe Portion",
+      description:
+        "Enimad minim veniam quis nostrud exercitation ullamco laboris. Lorem ipsum dolor sit amet cons aetetur adipisicing elit sedo eiusmod tempor.Incididunt labore et dolore magna aliqua. sed ayd minim veniam.",
+      image: "../../public/deluxe_plan.png",
+      details: [
+        { label: "Total Area", value: "2800 Sq. Ft" },
+        { label: "Bedroom", value: "150 Sq. Ft" },
+        { label: "Bathroom", value: "45 Sq. Ft" },
+        { label: "Smoking/Pets", value: "Allowed" },
+        { label: "Lounge", value: "650 Sq. Ft" },
+      ],
+    },
+    {
+      id: 3,
+      name: "Penthouse",
+      description:
+        "Enimad minim veniam quis nostrud exercitation ullamco laboris. Lorem ipsum dolor sit amet cons aetetur adipisicing elit sedo eiusmod tempor.Incididunt labore et dolore magna aliqua. sed ayd minim veniam.",
+      image: "../../public/penthouse_plan.png",
+      details: [
+        { label: "Total Area", value: "4000 Sq. Ft" },
+        { label: "Bedroom", value: "200 Sq. Ft" },
+        { label: "Bathroom", value: "60 Sq. Ft" },
+        { label: "Smoking/Pets", value: "Not Allowed" },
+        { label: "Lounge", value: "900 Sq. Ft" },
+      ],
+    },
+    {
+      id: 4,
+      name: "Top Garden",
+      description:
+        "Enimad minim veniam quis nostrud exercitation ullamco laboris. Lorem ipsum dolor sit amet cons aetetur adipisicing elit sedo eiusmod tempor.Incididunt labore et dolore magna aliqua. sed ayd minim veniam.",
+      image: "../../public/garden_plan.png",
+      details: [
+        { label: "Total Area", value: "3500 Sq. Ft" },
+        { label: "Bedroom", value: "180 Sq. Ft" },
+        { label: "Bathroom", value: "55 Sq. Ft" },
+        { label: "Smoking/Pets", value: "Allowed" },
+        { label: "Lounge", value: "800 Sq. Ft" },
+      ],
+    },
+    {
+      id: 5,
+      name: "Double Height",
+      description:
+        "Enimad minim veniam quis nostrud exercitation ullamco laboris. Lorem ipsum dolor sit amet cons aetetur adipisicing elit sedo eiusmod tempor.Incididunt labore et dolore magna aliqua. sed ayd minim veniam.",
+      image: "../../public/double_plan.png",
+      details: [
+        { label: "Total Area", value: "3200 Sq. Ft" },
+        { label: "Bedroom", value: "160 Sq. Ft" },
+        { label: "Bathroom", value: "50 Sq. Ft" },
+        { label: "Smoking/Pets", value: "Not Allowed" },
+        { label: "Lounge", value: "700 Sq. Ft" },
+      ],
+    },
+  ],
+};
